@@ -1,0 +1,26 @@
+{
+  "name": "tableau_mendeleiev",
+  "version": "0.0.1",
+  "description": "site pour s'exercer avec le tableau des éléments périodique",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RipocheGuillaume/tableaumendeleiev.git"
+  },
+  "author": "guillaume ripoche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RipocheGuillaume/tableaumendeleiev/issues",
+    "start": "nodemon server.js"
+  },
+  "homepage": "https://github.com/RipocheGuillaume/tableaumendeleiev#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3"
+  }
+}
